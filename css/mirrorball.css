@@ -1,0 +1,44 @@
+body{
+  height:100%;
+  color:white;
+}
+
+video{
+  position: fixed;
+  top:50%;
+  left:50%;
+  margin-top: -50%;
+  margin-left:-50%;
+  z-index:10;
+}
+
+a{
+  font-size: 2em;
+  display: inline-block;
+  border: solid 4px white;
+  text-decoration: none;
+  color:white;
+  padding:12px 48px;
+  margin-top: 20px;
+}
+
+div{
+  position: fixed;
+  z-index: 20;
+  text-align: center;
+  width: 800px;
+  top: 50%;
+  left:50%;
+  margin-left: -400px;
+  margin-top:-80px;
+}
+
+h1{
+  font-size: 70px;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Press Start 2P', cursive;
+}
+
+p{
+  font-size:15px;
+}
